@@ -22,6 +22,7 @@
     "lint": "eslint ./src",
     "lintfix": "eslint ./src --fix",
     "testonly": "mocha $npm_package_options_mocha",
+    "mocha":"mocha --require scripts/mocha_vanilla src/*.spec.js src/**/*.spec.js",
     "test": "npm run testonly",
     "test-watch": "npm run testonly -- --watch --watch-extensions js"
   },
