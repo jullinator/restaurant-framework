@@ -7,7 +7,7 @@
         "url": "https://github.com/juliancwirko/react-npm-boilerplate.git"
     },
     "author": "Jullinator",
-    "main": "dist/index.js",
+    "main": "./dist/index.js",
     "license": "MIT",
     "homepage": "https://github.com/jullinator/react-npm-boilerplate",
     "keywords": [

@@ -1,3 +1,6 @@
+// !! Change to Test.spec.js if you want to test.
+//// This is because this is meant as a reference file, thus excluding it from the tests.
+
 import React from 'react';
 
 import {shallow, mount, render} from 'enzyme';
