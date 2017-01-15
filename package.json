@@ -1,23 +1,21 @@
 {
     "name": "react-npm-boilerplate",
-    "version": "1.0.1",
-    "description": "Boilerplate for creating React Npm packages with ES2015",
+    "version": "2.0.0",
+    "description": "__DESCRIPTION__",
     "repository": {
         "type": "git",
         "url": "https://github.com/juliancwirko/react-npm-boilerplate.git"
     },
-    "author": "Julian Ćwirko",
+    "author": "Jullinator",
+    "main": "dist/index.js",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/juliancwirko/react-npm-boilerplate/issues"
-    },
-    "homepage": "https://github.com/juliancwirko/react-npm-boilerplate",
+    "homepage": "https://github.com/jullinator/react-npm-boilerplate",
     "keywords": [
         "react-component",
         "react"
     ],
     "options": {
-        "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"
+        "mocha": "--require scripts/mocha_runner src/*.spec.js src/**/*.spec.js"
     },
     "scripts": {
         "prepublish": "babel --plugins transform-es2015-modules-umd src --ignore __tests__ --out-dir ./dist",
