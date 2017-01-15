@@ -1,6 +1,7 @@
 import {assert, expect} from 'chai';
 
 import * as Package from './index';
+var fs = require('fs')
 
 describe(
    'Package Export', () => it(
@@ -10,7 +11,7 @@ describe(
 
 describe('Decorators', function(){
    it('Should work for static', function(){
-      const Decorator = Target => {
+      const Decorator = Target => { 
          Target.worksForStatic = true
       }
       @Decorator
